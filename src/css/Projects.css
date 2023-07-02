@@ -1,0 +1,44 @@
+
+.project-section {
+    margin-top: 20px;
+    text-align: center;
+}
+.project-img {
+    border-radius: 5px;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.text-image-alignment {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-alignment {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-right: 25px;
+    text-align: left;
+}
+.image-alignment {
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 100px;
+}
+.title-text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.project-info {
+    margin-bottom: 25px;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+}
+.some-info {
+    margin-top: 100px;
+}
