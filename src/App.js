@@ -8,20 +8,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <header>
         <Link to='/MyPortfolio/' className='nav-link'>Home</Link>
         <Link to='/Skills' className='nav-link'>Skills</Link>
         <Link to='/Projects' className='nav-link'>Projects</Link>
       </header>
-      <div className='container'>
+      
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/skills' element={<Skills/>} />
           <Route path='/projects' element={<Projects/>} />
           <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
-      </div>
+      
       <footer>
         <div>
           <a href='https://www.linkedin.com/in/andrte/'>

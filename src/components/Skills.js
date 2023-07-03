@@ -9,15 +9,19 @@ import '../css/Skills.css'
 
 function Skills () {
     return (
-        <div className='skill-section'>These are the technologies i have been using
+        <div className='skill-section'>
+            
             <div className='skill-logos'>
-                <img src={html} alt='html' className='logos'></img>
-                <img src={css} alt='css' className='logos'></img>
-                <img src={javascript} alt='javascript' className='logos'></img>
-                <img src={react} alt='react' className='logos'></img>
-                <img src={webpack} alt='webpack' className='logos'></img>
-                <img src={npm} alt='npm' className='logos'></img>
-                <img src={jest} alt='jest' className='logos'></img>
+                <div className='title-logos'>My Skills</div>
+                <div className='logos-position'>
+                    <img src={html} alt='html' className='logos'></img>
+                    <img src={css} alt='css' className='logos'></img>
+                    <img src={javascript} alt='javascript' className='logos'></img>
+                    <img src={react} alt='react' className='logos'></img>
+                    <img src={webpack} alt='webpack' className='logos'></img>
+                    <img src={npm} alt='npm' className='logos'></img>
+                    <img src={jest} alt='jest' className='logos'></img>
+                </div>
             </div>
         </div>
     )

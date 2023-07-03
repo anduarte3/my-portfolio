@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400&display=swap');
 
 .project-section {
     margin-top: 20px;
@@ -7,8 +8,9 @@
     border-radius: 5px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 70px;
     margin-bottom: 100px;
+    font-family: 'Shadows Into Light', cursive;
 }
 .text-image-alignment {
     display: flex;
@@ -21,6 +23,7 @@ h1 {
     width: 350px;
     margin-right: 25px;
     text-align: left;
+    font-weight: lighter;
 }
 .image-alignment {
     display: flex;

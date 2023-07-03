@@ -2,7 +2,10 @@ import '../css/Home.css'
 
 function Home () {
     return (
-        <div className="intro-section">Hello I'm André and i aspire to be a FullStack Web Developer</div>
+        <div className='content'>
+            <div className="name">Hello! I'm André😁.</div>
+            <div className='summary'></div>
+        </div>
     )
 }
 

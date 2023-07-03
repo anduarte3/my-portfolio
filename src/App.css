@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Roboto+Mono:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body {
   margin: auto;
   font-family: 'Fredoka', sans-serif;
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
   color: white;
+  background-color: lightseagreen;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .img-contact {
   padding: 10px;
@@ -23,12 +30,7 @@ header {
   font-size: 18px;
 }
 .container {
-  margin-top: 60px; 
-  margin-bottom: 60px; 
-  height: calc(100vh - 120px); 
-  overflow-y: auto;
-  background-color: #C4E9B8; 
-  color: black;
+  flex: 1;
 }
 footer {
   background-color: #38542F;
@@ -38,6 +40,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: auto;
 }
 .nav-link {
   padding: 10px;
