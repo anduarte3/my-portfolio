@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400&display=swap');
 
 .project-section {
-    margin-top: 20px;
+    margin-top: 100px;
     text-align: center;
 }
 .project-img {
@@ -14,13 +14,13 @@ h1 {
 }
 .text-image-alignment {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+
 }
 .text-alignment {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
     margin-right: 25px;
     text-align: left;
     font-weight: lighter;

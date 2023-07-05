@@ -108,9 +108,6 @@ function Projects() {
 
             <div className='some-info'>For more projects you can check out my github at the bottom of the page!</div>
         </div>
-
-        
-        
     )
 }
 
