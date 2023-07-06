@@ -12,16 +12,18 @@ h1 {
     margin-bottom: 100px;
     font-family: 'Shadows Into Light', cursive;
 }
+.text-image-container {
+    display: flex;
+    flex-direction: column;
+}
 .text-image-alignment {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
 .text-alignment {
     display: flex;
     flex-direction: column;
     width: 300px;
-    margin-right: 25px;
     text-align: left;
     font-weight: lighter;
 }
@@ -43,5 +45,23 @@ button {
     margin: 5px;
 }
 .some-info {
-    margin-top: 100px;
+   margin-bottom: 150px;
 }
+.code-link {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #ff5000;
+    line-height: 1.15;
+    font-size: 16px;
+    :hover {
+        transition: all .1s ease;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+    }
+}
+

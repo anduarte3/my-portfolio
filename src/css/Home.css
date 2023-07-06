@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Roboto+Mono:wght@100&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Roboto+Mono:wght@100&family=Shadows+Into+Light&display=swap');
 
-/* Intro container */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -11,9 +10,9 @@
     }
 }
 .scrollable-container {
-    height: 100vh; /* Set the height of the container */
-    overflow-y: scroll; /* Enable vertical scrolling */
-    scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+    height: 100vh; 
+    overflow-y: scroll; 
+    scroll-behavior: smooth; 
   }
 .intro-container {
     display: flex;

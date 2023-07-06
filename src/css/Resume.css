@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Roboto+Mono:wght@100&family=Shadows+Into+Light&display=swap');
 
-.download {
-    text-align: center;
+.cv-preview {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
 }
