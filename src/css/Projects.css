@@ -65,13 +65,13 @@ button {
     }
 }
 
-@media (max-width: 620px) {
+@media (min-width: 200px) and (max-width: 767px) {
     h1 {
         font-size: 60px;
     }
     img {
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
     }
     .title-text {
         font-size: 15px;
