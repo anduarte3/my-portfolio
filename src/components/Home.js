@@ -19,7 +19,7 @@ function Home () {
     };
 
     return (
-        <>
+        <div className='full-container'>
         <div className='intro-container'>
             <div className="name">Hello! I'm André😁.</div>
             <div className='summary'>I aspire to be a FullStack Web Developer!</div>
@@ -30,7 +30,7 @@ function Home () {
         </div>
         <div id='skills' className='skill-pagesize'><Skills/></div>
         <div id='projects' className='project-pagesize'><Projects/></div>
-        </>
+        </div>
     )
 }
 

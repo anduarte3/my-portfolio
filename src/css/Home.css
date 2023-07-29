@@ -130,3 +130,44 @@
   cursor: default;
   opacity: .24;
 }
+
+.name {
+  font-size: 2.5rem; /* 40px for larger screens */
+}
+
+.summary {
+  font-size: 1rem;
+}
+
+.link-btn {
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 767px) {
+  .name {
+    font-size: 2rem; /* Reduce the font size for the name on smaller screens */
+  }
+
+  .summary {
+    font-size: 0.9rem; /* Reduce the font size for the summary on smaller screens */
+  }
+
+  .link-to {
+    flex-direction: column;
+  }
+
+  .link-btn {
+    margin: 5px;
+    padding: 0.8rem 1.6rem; /* Adjust the padding for better button appearance on smaller screens */
+  }
+
+  .intro-container {
+    height: auto; /* Allow the container to adjust its height based on content */
+    padding: 20px; /* Add padding to the intro container for better spacing */
+  }
+
+  .skill-pagesize,
+  .project-pagesize {
+    height: auto; /* Allow the content to take its natural height on mobile screens */
+  }
+}
