@@ -65,3 +65,24 @@ button {
     }
 }
 
+@media (max-width: 720px) {
+    h1 {
+        font-size: 60px;
+    }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    .title-text {
+        font-size: 15px;
+    }
+    .project-info {
+        font-size: 13px;
+    }
+    .text-alignment {
+        width: 200px;
+    }
+    .some-info {
+        font-size: 13px;
+    }
+}

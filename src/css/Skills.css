@@ -29,3 +29,21 @@
     height: 80px;
     width: 80px;
 }
+
+@media (max-width: 720px) {
+    .logos-position {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .title-logos {
+        margin-left: 50px;
+        font-size: 60px;
+    }
+    .logos {
+        height: 40px;
+        width: 40px;
+    }
+    .skill-name {
+        font-size: 14px;
+    }
+}
