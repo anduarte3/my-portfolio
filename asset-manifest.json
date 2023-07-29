@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.e10e5647.css",
-    "main.js": "/MyPortfolio/static/js/main.2454d854.js",
+    "main.css": "/MyPortfolio/static/css/main.6516ca15.css",
+    "main.js": "/MyPortfolio/static/js/main.da3f9e6c.js",
     "static/media/shopping.png": "/MyPortfolio/static/media/shopping.369d3386cdfa7c44b56a.png",
     "static/media/weather-app.png": "/MyPortfolio/static/media/weather-app.73756fd6a92be4fa337c.png",
     "static/media/mycv.png": "/MyPortfolio/static/media/mycv.052d7d7104931bb75abd.png",
@@ -13,11 +13,11 @@
     "static/media/linkedin.png": "/MyPortfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/javascript.png": "/MyPortfolio/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.e10e5647.css.map": "/MyPortfolio/static/css/main.e10e5647.css.map",
-    "main.2454d854.js.map": "/MyPortfolio/static/js/main.2454d854.js.map"
+    "main.6516ca15.css.map": "/MyPortfolio/static/css/main.6516ca15.css.map",
+    "main.da3f9e6c.js.map": "/MyPortfolio/static/js/main.da3f9e6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e10e5647.css",
-    "static/js/main.2454d854.js"
+    "static/css/main.6516ca15.css",
+    "static/js/main.da3f9e6c.js"
   ]
 }
