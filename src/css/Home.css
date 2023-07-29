@@ -131,7 +131,7 @@
   opacity: .24;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 620px) {
   .link-btn {
     height: 50px;
     width: 100px;

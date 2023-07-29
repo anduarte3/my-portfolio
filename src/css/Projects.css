@@ -65,7 +65,7 @@ button {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 620px) {
     h1 {
         font-size: 60px;
     }
