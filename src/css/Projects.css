@@ -65,7 +65,7 @@ button {
     }
 }
 
-@media (min-width: 200px) and (max-width: 767px) {
+@media (max-width: 500px) {
     h1 {
         font-size: 60px;
     }
@@ -81,6 +81,7 @@ button {
     }
     .text-alignment {
         width: 200px;
+        padding: 10px;
     }
     .some-info {
         font-size: 13px;
