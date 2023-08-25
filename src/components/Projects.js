@@ -1,6 +1,5 @@
 import weather from '../img/weather-app.png'
 import tictactoe from '../img/tictactoe.png'
-import library from '../img/library.png'
 import battleship from '../img/battleship.png'
 import shopping from '../img/shopping.png'
 import '../css/Projects.css'
