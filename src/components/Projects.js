@@ -52,26 +52,6 @@ function Projects() {
                         <img src={tictactoe} className='project-img'></img>
                     </div>
                 </div>
-                {/* Library */}
-                <div className='text-image-alignment'>
-                    <div className='text-alignment'>
-                        <div className='title-text'>Library</div>
-                        <div className='project-info'>A Library app that allows you to: delete, add
-                            or mark as read option. Main goal for this project was to use Classes and Object Constructors.
-                        </div>
-                        <div>
-                            <a href='https://anduarte3.github.io/Library/'>
-                                <button className='code-link'>Live App</button>
-                            </a>
-                            <a href='https://github.com/anduarte3/Library'>
-                                <button className='code-link'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='image-alignment'>
-                        <img src={library} className='project-img'></img>
-                    </div>
-                </div>
                 {/* Battleship */}
                 <div className='text-image-alignment'>
                     <div className='text-alignment'>
