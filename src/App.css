@@ -220,20 +220,84 @@ footer {
 
 /* Small Devices (Tablets and Large Phones) */
 @media (min-width: 577px) and (max-width: 767px) {
-
+    /* About section */
+    .container {
+        text-align: center;
+    }
+    .aboutme-container {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .aboutme-text-container {
+        padding: 0px;
+        margin: 0px;
+    }
+    .aboutme-text-container {
+        width: 450px;
+    }
+    .name {
+        text-align: center;
+    }
+    .summary {
+        text-align: center;
+        width: 500px;
+    }
+    /* Project section */
+    .title-project {
+        text-align: center;
+        font-size: 45px;
+    }
+    .text-image-position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        transform: translateY(0); 
+        transition: transform 0.3s ease; 
+        position: relative;
+    }
+    .text-image-position:hover::before {
+        opacity: 1;
+    }
+    .text-image-position:hover {
+        transform: translateY(20px);
+    }
+    .text-title {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .project-img {
+        height: 400px;
+        width: 450px;
+    }
+    /* Footer */
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+    }
 }
 
 /* Medium Devices (Tablets and Small Laptops) */
 @media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Large Devices (Laptops and Desktops) */
-@media (min-width: 992px) and (max-width: 1200px) {
-
-}
-
-/* Extra Large Devices (Large Desktops) */
-@media (min-width: 1201px) {
-
+    .name {
+        text-align: center;
+    }
+    .summary {
+        width: 400px;
+    }
+    .container {
+        width: 100%;
+    }
+    .text-image-position {
+        width: 740px;
+    }
+    .project-img {
+        height: 400px;
+        width: 450px;
+    }
 }

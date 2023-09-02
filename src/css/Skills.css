@@ -2,6 +2,7 @@
 .techstack-section {
     display: flex;
     flex-direction: column;
+    /* min-height: 25vh; */
 }
 .title {
     display: flex;
@@ -16,17 +17,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    min-width: 400px;
+    /* min-width: 600px; */
 }
 .border-logos {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 20px;
-    margin: 15px;
+    margin: 10px;
     min-height: 100px;
-    min-width: 50px;
+    min-width: 60px;
     border: 2px;
     border-radius: 100px;
     transform: translateY(0); 

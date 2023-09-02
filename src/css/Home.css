@@ -15,27 +15,3 @@
 .summary {
   font-size: 20px;
 }
-
-/* Extra Small Devices (Phones) */
-@media (max-width: 576px) {
-
-}
-/* Small Devices (Tablets and Large Phones) */
-@media (min-width: 577px) and (max-width: 767px) {
-
-}
-
-/* Medium Devices (Tablets and Small Laptops) */
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Large Devices (Laptops and Desktops) */
-@media (min-width: 992px) and (max-width: 1200px) {
-
-}
-
-/* Extra Large Devices (Large Desktops) */
-@media (min-width: 1201px) {
-
-}
