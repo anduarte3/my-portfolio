@@ -1,0 +1,30 @@
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    min-height: 440px;
+    min-width: 100vw;
+    padding: 50px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.aboutme-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+}
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 40px;
+    font-weight: 700;
+}
+.aboutme-summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

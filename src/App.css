@@ -1,51 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Roboto+Mono:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-body {
-  margin: auto;
-  font-family: 'Fredoka', sans-serif;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: bold;
-  color: white;
-  background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
 }
-.app {
-  font-family: 'Noto Sans JP', sans-serif;
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    position: fixed;
+    z-index: 100;
+    min-width: 100%;
+    min-height: 70px;
+    background-color: white;
+}
+.header-name {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.header-link {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+}
+.horizontal-line {
+    display: block;
+    min-width: 100%;
+    min-height: 150px; 
+    background: white; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; 
+}
+.hidden {
+    margin: 200px;
+}
+/* Footer Styling */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    min-width: 100%;
+    background-color: gray;
+    margin-top: 100px;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .img-contact {
-  padding: 10px;
-  height: 40px;
-  width: 40px;
+    max-height: 60px;
+    max-width: 60px;
+    padding: 10px;
 }
-header {
-  background-color: lightslategray;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 65px;
-  font-size: 18px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 576px) {
+    /* Header */
+    header {
+        float: none;
+        display: flex;
+        text-align: left;
+    }
+    .header-links {
+        float: right;
+    }
+    /* About section */
+    .container {
+        text-align: center;
+    }
+    .aboutme-container {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .aboutme-text-container {
+        padding: 0px;
+        margin: 0px;
+    }
+    .aboutme-text-container {
+        width: 450px;
+    }
+    .horizontal-line {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    /* Project section */
+    .text-image-position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        transform: translateY(0); 
+        transition: transform 0.3s ease; 
+        position: relative;
+    }
+    .text-image-position:hover::before {
+        opacity: 1;
+    }
+    .text-image-position:hover {
+        transform: translateY(20px);
+    }
+    .text-title {
+        padding-top: 10px;
+    }
+    img {
+        height: 350px;
+        width: 450px;
+    }
+    /* Footer */
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+    }
 }
-.main-content {
-  margin-top: 60px;
-  margin-bottom: 40px;
+
+/* Small Devices (Tablets and Large Phones) */
+@media (min-width: 577px) and (max-width: 767px) {
+
 }
-footer {
-  background-color: lightslategray;
-  padding: 10px;
-  height: 65px;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+
+/* Medium Devices (Tablets and Small Laptops) */
+@media (min-width: 768px) and (max-width: 991px) {
+
 }
-.nav-link {
-  padding: 10px;
-  text-decoration: none;
-  color: white;
+
+/* Large Devices (Laptops and Desktops) */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1201px) {
+
 }

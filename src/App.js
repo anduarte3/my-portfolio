@@ -1,8 +1,11 @@
-import { Link, Route, Routes, Navigate } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link'
+import Main from './components/Main'
 import Home from './components/Home'
-import Resume from './components/Resume'
-import Projects from './components/Projects'
+import About from './components/About'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
+// import Contact from './components/Contact'
 import github from './img/github.png'
 import linkedin from './img/linkedin.png'
 import './App.css';
@@ -11,21 +14,24 @@ function App() {
   return (
     <div className="app">
       <header>
-        <Link to='/MyPortfolio/' className='nav-link'>Home</Link>
-        <Link to='/Projects' className='nav-link'>Projects</Link>
-        <Link to='/Resume' className='nav-link'>Resume</Link>
+        <div className='header-name'>André</div>
+        <div className='header-links'>
+          <Link smooth to='#home' className='header-link'>Home</Link>
+          <Link smooth to='#aboutme' className='header-link'>About</Link>
+          <Link smooth to='#skills' className='header-link'>Skills</Link>
+          <Link smooth to='#projects' className='header-link'>Projects</Link>
+        </div>
       </header>
-      <div className='main-content'>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/resume' element={<Resume/>} />
-          <Route path='/projects' element={<Projects/>} />
-          <Route path='/skills' element={<Skills/>} />
-          <Route path="/*" element={<Navigate to="/" />} />
+          <Route path='#home' element={<Home/>} />
+          <Route path='#aboutme' element={<About/>} />
+          <Route path='#skills' element={<Skills/>} />
+          <Route path='#projects' element={<Projects/>} />
+          <Route path="/*" element={<Navigate to="/"/>} />
         </Routes>
-      </div>
+        <div><Main/></div>
       <footer>
-        <div>
+        <div className='footer-icons'>
           <a href='https://www.linkedin.com/in/andrte/'>
             <img src={linkedin} alt='Linkedin Logo' className='img-contact'></img>
           </a>

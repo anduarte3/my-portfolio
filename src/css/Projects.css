@@ -1,90 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400&display=swap');
-
 .project-section {
-    margin-top: 100px;
-    text-align: center;
+    padding-top: 50px;
 }
-.project-img {
-    border-radius: 5px;
-}
-h1 {
-    font-size: 70px;
-    margin-bottom: 100px;
-    font-family: 'Shadows Into Light', cursive;
+.title-project {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 600;
+    padding: 50px;
+    margin-bottom: 25px;
 }
 .text-image-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
-.text-image-alignment {
+.text-image-position {
+    background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    min-height: 400px;
+    max-width: 800px;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transform: translateY(0); 
+    transition: transform 0.3s ease; 
+    position: relative;
 }
-.text-alignment {
+.text-image-position:hover::before {
+    opacity: 1;
+}
+.text-image-position:hover {
+    transform: translateY(20px);
+}
+.text-container {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    text-align: left;
-    font-weight: lighter;
+    width: 250px;
 }
-.image-alignment {
+.text-title {
     display: flex;
-    margin-left: 25px;
-    margin-bottom: 100px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 35px;
 }
-.title-text {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 25px;
+.text-info {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: gray;
 }
-.project-info {
-    margin-bottom: 25px;
+.link-position {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
-button {
-    padding: 10px;
-    margin: 5px;
-}
-.some-info {
-   margin-bottom: 150px;
-}
-.code-link {
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 12px 24px;
-    border: 0;
-    color: #fff;
-    background: #ff5000;
-    line-height: 1.15;
+.ref-link {
+    color: black;
     font-size: 16px;
-    :hover {
-        transition: all .1s ease;
-        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
-    }
+    font-weight: 500;
+    font-family: Poppins;
+    margin: 15px;
+    text-decoration: none;
 }
-
-@media (max-width: 767px) {
-    h1 {
-        font-size: 60px;
-    }
-    img {
-        height: 150px;
-        width: 150px;
-    }
-    .title-text {
-        font-size: 15px;
-    }
-    .project-info {
-        font-size: 13px;
-    }
-    .text-alignment {
-        width: 180px;
-        padding: 10px;
-        margin: 10px;
-    }
-    .some-info {
-        font-size: 13px;
-    }
+.button-link:hover {
+    background-color: #0d6efd;
+}
+img {
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
 }
