@@ -1,6 +1,7 @@
 import weather from '../img/weather-app.png'
 import battleship from '../img/battleship.png'
 import shopping from '../img/shopping.png'
+import auth from '../img/authapp.png'
 import '../css/Projects.css'
 
 function Projects() {
@@ -55,6 +56,21 @@ function Projects() {
                     </div>
                     <div className='image-position'>
                         <img src={shopping} className='project-img'></img>
+                    </div>
+                </div>
+                {/* Auth App */}
+                <div className='text-image-position'>
+                    <div className='text-container'>
+                        <div className='text-title'>Auth App 🔐</div>
+                        <div className='text-info'> An authentication app using NodeJS! Getting used to CRUD, 
+                        hashing password with bcrypt and passportJS for the authentication and sessions.
+                        </div>
+                        <div className='link-position'>
+                            <a href='https://github.com/anduarte3/auth-app' className='ref-link'>View Code</a>
+                        </div>
+                    </div>
+                    <div className='image-position'>
+                        <img src={auth} className='project-img'></img>
                     </div>
                 </div>
             </div>
