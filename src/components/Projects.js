@@ -52,8 +52,8 @@ function Projects() {
                             every concept i've learn so far.
                         </div>
                         <div className='link-position'>
-                            <a href='https://github.com/anduarte3/Battleship' className='ref-link'>View Code</a>
                             <a href='https://anduarte3.github.io/Battleship/dist/index.html' className='ref-link'>Live Preview</a>
+                            <a href='https://github.com/anduarte3/Battleship' className='ref-link'>View Code</a>
                         </div>
                     </div>
                     <div className='image-position'>
@@ -68,8 +68,8 @@ function Projects() {
                             get more practice with react and learn to use react-router-dom.
                         </div>
                         <div className='link-position'>
-                            <a href='https://github.com/anduarte3/Shopping-Cart' className='ref-link'>View Code</a>
                             <a href='https://anduarte3.github.io/Shopping-Cart/' className='ref-link'>Live Preview</a>
+                            <a href='https://github.com/anduarte3/Shopping-Cart' className='ref-link'>View Code</a>
                         </div>
                     </div>
                     <div className='image-position'>
