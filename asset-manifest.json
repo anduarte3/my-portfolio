@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.bce66501.css",
-    "main.js": "/MyPortfolio/static/js/main.ea2ef00c.js",
+    "main.js": "/MyPortfolio/static/js/main.20ed3b0f.js",
     "static/media/shopping.png": "/MyPortfolio/static/media/shopping.369d3386cdfa7c44b56a.png",
     "static/media/weather-app.png": "/MyPortfolio/static/media/weather-app.73756fd6a92be4fa337c.png",
     "static/media/webpack.png": "/MyPortfolio/static/media/webpack.09a1a1112c577c279435.png",
     "static/media/react.png": "/MyPortfolio/static/media/react.4127b36258b5e9dc8f88.png",
     "static/media/node-js.png": "/MyPortfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
     "static/media/authapp.png": "/MyPortfolio/static/media/authapp.db3e36bf7ff7595acc93.png",
+    "static/media/social-app.png": "/MyPortfolio/static/media/social-app.c03f7d6d2e187e942ea1.png",
     "static/media/css.png": "/MyPortfolio/static/media/css.463e319bad8e0edf1ef7.png",
-    "static/media/social-app.png": "/MyPortfolio/static/media/social-app.040a7f1c73c0a22fe02c.png",
     "static/media/linkedin.png": "/MyPortfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/javascript.png": "/MyPortfolio/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/MyPortfolio/index.html",
     "main.bce66501.css.map": "/MyPortfolio/static/css/main.bce66501.css.map",
-    "main.ea2ef00c.js.map": "/MyPortfolio/static/js/main.ea2ef00c.js.map"
+    "main.20ed3b0f.js.map": "/MyPortfolio/static/js/main.20ed3b0f.js.map"
   },
   "entrypoints": [
     "static/css/main.bce66501.css",
-    "static/js/main.ea2ef00c.js"
+    "static/js/main.20ed3b0f.js"
   ]
 }
