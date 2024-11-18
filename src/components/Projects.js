@@ -20,8 +20,8 @@ function Projects() {
                         with good practices like json web token, passportJS for authentication, the following image is a sneak peek.
                         </div>
                         <div className='link-position'>
+                            <a href='https://social-app-al2jczf7hr.netlify.app/' className='ref-link'>Live Preview</a>
                             <a href='https://github.com/anduarte3/social-app' className='ref-link'>View Code</a>
-                            {/* <a href='https://github.com/anduarte3/weather-app' className='ref-link'>Live Preview</a> */}
                         </div>
                     </div>
                     <div className='image-position'>

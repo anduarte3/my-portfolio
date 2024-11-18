@@ -7,6 +7,8 @@ import npm from '../img/npm.png'
 import nodejs from '../img/node-js.png'
 import mongodb from '../img/mongodb.png'
 import expressjs from '../img/express-js.png'
+import sql from '../img/sql-server.png'
+import java from '../img/java.png'
 import '../css/Skills.css'
 
 function Skills() {
@@ -49,6 +51,14 @@ function Skills() {
                 <div className='border-logos'>
                     <img src={expressjs} alt='expressjs' className='logos'></img>
                     <div className='skill-name'>expressjs</div>
+                </div> 
+                <div className='border-logos'>
+                    <img src={sql} alt='sql' className='logos'></img>
+                    <div className='skill-name'>sql</div>
+                </div> 
+                <div className='border-logos'>
+                    <img src={java} alt='java' className='logos'></img>
+                    <div className='skill-name'>java</div>
                 </div> 
             </div>  
         </div>
