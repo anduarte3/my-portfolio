@@ -1,7 +1,3 @@
-import weather from '../img/weather-app.png'
-import battleship from '../img/battleship.png'
-import shopping from '../img/shopping.png'
-import auth from '../img/authapp.png'
 import register from '../img/register.png'
 import login from '../img/login.png'
 import feed from '../img/feed.png'
